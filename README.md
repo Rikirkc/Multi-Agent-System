@@ -9,28 +9,6 @@ File Upload: Supports uploading PDF and JSON files through a Streamlit interface
 Database Storage: Stores extracted invoice data in a SQLite database with deduplication based on Invoice No..
 Streamlit Frontend: Provides a user-friendly interface to upload files, check email invoices, and view stored invoices.
 
-Project Structure
-Multi-Agent-System/
-│
-├── agents/
-│   ├── classifier_agent.py   # Classifies input format and intent
-│   ├── json_agent.py         # Processes JSON inputs
-│   ├── email_agent.py        # Processes text-based email inputs
-│   ├── pdf_agent.py          # Processes PDF inputs
-│
-├── utils/
-│   ├── multi_agent_system.py # Orchestrates agents and email fetcher
-│   ├── email_fetcher.py      # Fetches invoices from email via IMAP
-│   ├── shared_memory.py      # Manages SQLite database operations
-│   ├── prompts.py            # Defines prompt template for extraction
-│
-├── dummy_data/
-│   ├── test.json             # Sample JSON invoice for testing
-│   ├── test.pdf              # Sample PDF invoice for testing
-│
-├── app.py                    # Streamlit frontend
-├── .gitignore                # Excludes .env, virtual env, and database
-├── README.md                 # Project documentation
 
 Prerequisites
 
