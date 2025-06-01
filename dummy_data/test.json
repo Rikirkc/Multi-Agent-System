@@ -1,0 +1,10 @@
+{
+  "Invoice Date": "2025-05-03",
+  "Customer Name": "John Doe",
+  "Customer Billing Address": "123 Main St, City, Country",
+  "Customer Shipping Address": "123 Main St, City, Country",
+  "Item Names/IDs": ["Widget A", "Widget B"],
+  "Quantity": ["2.00", "2.00"],
+  "Invoice No.": "1723",
+  "Final Amount": "140"
+}
