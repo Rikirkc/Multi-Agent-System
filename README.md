@@ -151,11 +151,11 @@ Deduplication: Based on Invoice No. – no duplicates allowed!
 
 🛠️ Troubleshooting
 Problem	Solution
-IMAP Errors	Double-check .env. For Gmail, use App Password & enable IMAP.
-PDF Not Reading	Use text-based PDFs (not scanned images).
-JSON Format Errors	Make sure JSON is valid and follows expected structure.
-Locked Database (memory.db)	Close the app, delete the DB file, and restart.
-Streamlit App Not Loading	Run streamlit run app.py from the root directory.
+IMAP Errors	: Double-check .env. For Gmail, use App Password & enable IMAP.
+PDF Not Reading	: Use text-based PDFs (not scanned images).
+JSON Format Errors :	Make sure JSON is valid and follows expected structure.
+Locked Database (memory.db) :	Close the app, delete the DB file, and restart.
+Streamlit App Not Loading	: Run streamlit run app.py from the root directory.
 
 📄 License
 MIT License – see LICENSE for details.
