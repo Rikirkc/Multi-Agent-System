@@ -61,34 +61,20 @@ Upload files, check emails, and view stored invoices from your browser
 
 ⚙️ Setup Instructions
 1. 🧬 Clone the Repo
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/Multi-Agent-System.git
 cd Multi-Agent-System
 2. 🐍 Set Up Your Virtual Environment
-bash
-Copy
-Edit
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  
+# On Windows: venv\Scripts\activate
 3. 📥 Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Or manually:
-
-bash
-Copy
-Edit
 pip install streamlit sqlalchemy PyPDF2 langchain-google-genai python-dotenv
 4. 🛠️ Configure Environment Variables
 Create a .env file in the root directory:
-
-ini
-Copy
-Edit
 GEMINI_API_KEY=your_api_key
 IMAP_SERVER=imap.gmail.com
 IMAP_USER=your_email@gmail.com
@@ -103,10 +89,6 @@ test.json (Sample invoice data)
 test.pdf (Text-based PDF with invoice details)
 
 Make sure test.json looks something like this:
-
-json
-Copy
-Edit
 {
   "Invoice Date": "2025-05-01",
   "Customer Name": "John Doe",
@@ -119,10 +101,6 @@ Edit
 }
 🚀 Running the App
 Fire it up with:
-
-bash
-Copy
-Edit
 streamlit run app.py
 Then visit: http://localhost:8501
 
